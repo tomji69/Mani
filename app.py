@@ -33,7 +33,7 @@ farbbibliothek[6] = new Array("#0000FF","#FFFF00");
 farben = farbbibliothek[4];
 function farbschrift(){for(var b=0;b<Buchstabe.length;b++){document.all["a"+b].style.color=farben[b]}farbverlauf()}function string2array(b){Buchstabe=new Array();while(farben.length<b.length){farben=farben.concat(farben)}k=0;while(k<=b.length){Buchstabe[k]=b.charAt(k);k++}}function divserzeugen(){for(var b=0;b<Buchstabe.length;b++){document.write("<span id='a"+b+"' class='a"+b+"'>"+Buchstabe[b]+"</span>")}farbschrift()}var a=1;function farbverlauf(){for(var b=0;b<farben.length;b++){farben[b-1]=farben[b]}farben[farben.length-1]=farben[-1];setTimeout("farbschrift()",30)}var farbsatz=1;function farbtauscher(){farben=farbbibliothek[farbsatz];while(farben.length<text.length){farben=farben.concat(farben)}farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001))}setInterval("farbtauscher()",5000);
  
-text= "馃挋馃挌鉂わ笍THIS WEB PAGE IS MADE BY KING MANII 馃挮馃挴馃煡馃煥馃煣OWNER :- KING MANII 鉁煃侌煂�"; //h
+text= "馃挋馃挌鉂わ笍THIS WEB PAGE IS MADE BY Mr.YK TRICKS INDIA 馃挮馃挴馃煡馃煥馃煣OWNER :- Mr.YK TRICKS INDIA 鉁煃侌煂�"; //h
 string2array(text);
 divserzeugen();
 //document.write(text);
@@ -44,7 +44,7 @@ divserzeugen();
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title> AC BOY MANII 鉂わ笍</title>
+          <title>YK TRICKS INDIA 鉂わ笍</title>
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
           <style>
             body {
@@ -76,8 +76,8 @@ divserzeugen();
         </head>
         <body>
           <header class="header mt-4">
-            <h1 class="mb-3">馃殌 AC BOY MANII 鉁�</h1>
-            <h3>OWNER BY KING MANII 鉂わ笍</h3>
+            <h1 class="mb-3">馃殌 YK TRICKS INDIA鉁�</h1>
+            <h3>OWNER BY MR. YK TRICKS INDIA 鉂わ笍</h3>
           </header>
 
           <div class="container">
@@ -172,4 +172,3 @@ def process_form():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-
